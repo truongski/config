@@ -56,3 +56,6 @@ set foldopen=block,hor,mark,percent,quickfix,tag " What opens folds
 " Button mappings
 set pastetoggle=<F11>           " F11 to paste
 map Y y$                        " Yank till end of line
+
+" Pathogen: https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
